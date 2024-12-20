@@ -372,7 +372,7 @@ async def rename_child(data: RenameChildData, request: Request):
 async def send_email_notification_endpoint(data: EmailNotificationData, request: Request):
     try:
         subject = f"AI Chat Risk Notification for {data.child_name}"
-        body = f"Dear Parent,\n\nWe have detected a {data.risk_level} risk level in your child's AI chat activities. \n\nPlease click the following link to view the conversation: {data.redirect_url}\n\nBest regards,\YouthSageAgent Team"
+        body = f"Dear Parent,\n\nWe have detected a {data.risk_level} risk level in your child's AI chat activities. \n\nPlease click the following link to view the conversation: {data.redirect_url}\n\nBest regards,\YouthSafeAgent Team"
         
         send_email_notification(data.email, subject, body)
         

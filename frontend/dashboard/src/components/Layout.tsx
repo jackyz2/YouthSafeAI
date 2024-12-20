@@ -14,7 +14,7 @@ const Layout: React.FC = () => {
         <Outlet />
       </main>
       <footer className="mt-12 text-center text-gray-500">
-        &copy; {new Date().getFullYear()} YouthSageAgent. All rights reserved.
+        &copy; {new Date().getFullYear()} YouthSafeAgent. All rights reserved.
       </footer>
     </div>
   );

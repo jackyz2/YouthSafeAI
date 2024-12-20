@@ -24,7 +24,7 @@ const Navigation: React.FC = () => {
         <div className="flex items-center gap-4">
           <ShieldHalf size={64} className="text-blue-500" />
           <div>
-            <h1 className="text-4xl font-extrabold text-gray-800">YouthSageAgent</h1>
+            <h1 className="text-4xl font-extrabold text-gray-800">YouthSafeAgent</h1>
             <p className="text-sm text-gray-500 font-medium">
               Parental Control Dashboard
             </p>

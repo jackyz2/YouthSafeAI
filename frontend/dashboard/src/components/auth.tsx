@@ -34,9 +34,9 @@ export default function AuthComponent({ children }: { children: React.ReactNode 
         {/* Left side - Logo and Brand Description */}
         <div className="flex-1 bg-primary flex flex-col items-center justify-center p-8 text-white">
           <ShieldHalf size={64} />
-          <h1 className="text-4xl font-bold mt-4">YouthSageAgent</h1>
+          <h1 className="text-4xl font-bold mt-4">YouthSafeAgent</h1>
           <p className="text-xl mt-2 text-center max-w-md">
-          YouthSageAgent is a parental control platform that helps parents monitor and control their children's online activities.
+          YouthSafeAgent is a parental control platform that helps parents monitor and control their children's online activities.
           </p>
         </div>
   
@@ -44,7 +44,7 @@ export default function AuthComponent({ children }: { children: React.ReactNode 
         <div className="flex-1 flex items-center justify-center p-8">
           <Card className="w-full max-w-md">
             <CardHeader>
-              <CardTitle>{session ? 'Welcome Back!' : 'Welcome to YouthSageAgent!'}</CardTitle>
+              <CardTitle>{session ? 'Welcome Back!' : 'Welcome to YouthSafeAgent!'}</CardTitle>
             </CardHeader>
             <CardContent>
               {!session ? (
